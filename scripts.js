@@ -1,7 +1,4 @@
 function makeray (){
-	if (document.getElementById("myButton").innerHTML == "Reset"){
-			location.reload();
-			}
 	var set1 = [];
 	var set2 = [];
 	var sum1 = 0;
@@ -66,5 +63,6 @@ function makeray (){
 		document.getElementById("team2title").innerHTML = ["Team 2 Players"];
 		document.getElementById("difference").innerHTML = ["Total MMR Difference: " + difference];
 		document.getElementById('myButton').innerHTML = "Reset";
+		document.getElementById("myButton").onclick = location.reload();
 }
 }
