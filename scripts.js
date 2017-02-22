@@ -1,5 +1,5 @@
 function makeray (){
-	if (document.getElementById("myButton").innerHTML = "Reset"){
+	if (document.getElementById("myButton").innerHTML == "Reset"){
 			location.reload();
 			}
 	var set1 = [];
