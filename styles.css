@@ -14,14 +14,14 @@
 		margin: auto;
 }
 
-#name {
+#names {
 	width: 50%;
 	height: 500px;
   float: left;
 	padding-top: 1px;
 }  
 
-#mmr {
+#mmrs {
 		width: 50%;
     margin-left: 50%;
 		height: 500px;
