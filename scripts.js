@@ -1,5 +1,6 @@
 function makeray (){
 	if (document.getElementById("myButton").innerHTML == "Reset"){
+			document.getElementsByClassName("mmr").reset();
 			location.reload();
 			document.getElementById('pagelinks').href = "#toplink";
 			}
