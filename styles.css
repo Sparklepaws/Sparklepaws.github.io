@@ -1,0 +1,16 @@
+#all {
+width: 100%;
+    margin: 0 40%;
+}
+
+#names {
+	float: left;
+}
+#mmrs {
+	float: left;
+}
+#button {
+	clear: both;
+	margin: 7em;
+	padding-top: 20px;
+}
