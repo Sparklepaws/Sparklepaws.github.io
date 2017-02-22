@@ -5,18 +5,18 @@
     margin: 0 auto;
     padding: 10px;
 		text-align: center;
+		border-style: solid;
+		border-radius: 30px
 }
 
 #title {
 		width: 50%;
 		margin: auto;
-		background: blue;
 }
 
 #names {
 	width: 50%;
 	height: 500px;
-  background: red;
   float: left;
 	padding-top: 1px;
 }  
@@ -26,7 +26,6 @@
     margin-left: 50%;
 		height: 500px;
 		padding-top: 1px; 
-    background: yellow;
 }
 
 .nomargin {
@@ -36,14 +35,12 @@
 #result1 {
 	width: 50%;
 	height: 250px;
-  background: orange;
   float: left;
 }
 #result2 {
 	width: 50%;
   margin-left: 50%;
 	height: 250px;
-  background: purple;
 }
 #result1 h2 {
 	margin-top:0px;
@@ -51,6 +48,7 @@
 #result2 h2 {
 	margin-top:0px;
 }
+
 
 
 
