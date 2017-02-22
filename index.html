@@ -4,59 +4,100 @@
  <script src="scripts.js"></script> 
 <body>
 <div id="all">
-<form>
+	<div id="title"><h1>MMR Team Calculator</h1></div>
 	<div id="names">
-		Name<br>
-  	<input type="text" name="name1" class="name" value="name"><br>
-		<br>
-  	<input type="text" name="name1" class="name" value="name2"><br>
-		<br>
-  	<input type="text" name="name1" class="name" value="name3"><br>
-		<br>
-  	<input type="text" name="name1" class="name" value="name4"><br>
-		<br>
-  	<input type="text" name="name1" class="name" value="name5"><br>
-		<br>
-  	<input type="text" name="name1" class="name" value="name6"><br>
-		<br>
-  	<input type="text" name="name1" class="name" value="name7"><br>
-		<br>
-  	<input type="text" name="name1" class="name" value="name8"><br>
-		<br>
-  	<input type="text" name="name1" class="name" value="name9"><br>
-		<br>
-  	<input type="text" name="name1" class="name" value="name10"><br>
+		<form>
+			<h2>Names</h2>
+			<input type="text" name="name1" class="name" value="name">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" value="name">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" value="name">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" value="name">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" value="name">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" value="name">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" value="name">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" value="name">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" value="name">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" value="name">
+		</form>
 	</div>
+
 	<div id="mmrs">
-  MMR 1<br>
-  <input type="text" name="mmr1" class="mmr" value="19"><br>
-  <br>
-  <input type="text" name="mmr2" class="mmr" value="17"><br>
-	<br>
-  <input type="text" name="mmr3" class="mmr" value="13"><br>
-  <br>
-  <input type="text" name="mmr4" class="mmr" value="9"><br>
-	<br>
-  <input type="text" name="mmr5" class="mmr" value="6"><br>
-  <br>
-  <input type="text" name="mmr6" value="44" class="mmr"><br>
-	<br>
-  <input type="text" name="mmr7" value="66" class="mmr"><br>
-	<br>
-  <input type="text" name="mmr8" value="77" class="mmr"><br>
-	<br>
-  <input type="text" name="mmr9" value="88" class="mmr"><br>
-	<br>
-  <input type="text" name="mmr10" value="99" class="mmr"><br>
+		<form>
+			<h2>MMRS</h2>
+			<input type="text" name="mmr1" class="mmr" value="19">
+			<br>
+  		<br>
+  		<input type="text" name="mmr2" class="mmr" value="17">
+			<br>
+			<br>
+  		<input type="text" name="mmr3" class="mmr" value="13">
+			<br>
+  		<br>
+  		<input type="text" name="mmr4" class="mmr" value="9">
+			<br>
+			<br>
+  		<input type="text" name="mmr5" class="mmr" value="6">
+			<br>
+  		<br>
+  		<input type="text" name="mmr6" value="44" class="mmr">
+			<br>
+			<br>
+  		<input type="text" name="mmr7" value="66" class="mmr">
+			<br>
+			<br>
+  		<input type="text" name="mmr8" value="77" class="mmr">
+			<br>
+			<br>
+  		<input type="text" name="mmr9" value="88" class="mmr">
+			<br>
+			<br>
+  		<input type="text" name="mmr10" value="99" class="mmr">
+			<br>
+		</form>
 	</div>
-</form>
-</br>
-</br>
-</br>
-</br>
-<div id="button">
-	<button type="button" onclick="makeray()">Calculate</button>
-</div>
+
+	<div class="nomargin">
+		<button type="button" onClick="makeray()" id="myButton">Calculate</button>
+	</div>
+
+	<div id="result1">
+		<h2 id="team1title"></h2>
+		<p id ="a0"></p>
+		<p id ="a1"></p>
+		<p id ="a2"></p>
+		<p id ="a3"></p>
+		<p id ="a4"></p>
+	</div>
+	<div id="result2">
+		<h2 id="team2title"></h2>
+		<p id ="b0"></p>
+		<p id ="b1"></p>
+		<p id ="b2"></p>
+		<p id ="b3"></p>
+		<p id ="b4"></p>
+	</div>
+
+	<div id="nomargin">
+		<h2 id="difference"></h2>
+	</div>
 </div>
 </body>
 </html>
