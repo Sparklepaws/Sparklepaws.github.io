@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="jquery.min.js"></script>
+    <script type='text/javascript' src='jquery.ba-hashchange.min.js'></script>
+    <script type='text/javascript' src='dynamicpage.js'></script>
+    <script src='modernizr.js'></script>
+    <link type="text/css" rel="stylesheet" href="css/lightgallery.min.css">
+    <script src="lightgallery-all.min.js"></script>
+    <script src="lg-thumbnail.min.js"></script>
+    <script src="lg-fullscreen.min.js"></script>
+  </head>
+</html>
+<body>
+    <div class="container-fluid" id="page-wrap">
+        <div class="navigation-bar">
+            <div class="imgwrap"><img class="img-fluid" src="starcherrixlogo.png"></div>
+            <header>
+                <nav>
+                    <ul class="links">
+                        <li><a href="index.html">Portfolio</a></li>
+                        <li><a href="something.html">Galleries</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        
+        <div class="gallerybox" id="gallerybox">
+            <div id="guts">
+                <a href="https://i.redd.it/wmq8ez2mmcj11.jpg"><img src="https://i.redd.it/wmq8ez2mmcj11.jpg"></a>
+                <a href="test2.png"><img src="test2.png"></a>
+                <a href="test4.jpg"><img src="test4.jpg"></a>
+                <a href="test5.png"><img src="test5.png"></a>
+                <a href="test1.jpg"><img src="test1.jpg"></a>
+                <a href="test2.png"><img src="test2.png"></a>
+            </div>
+        </div>
+    </div> 
+    <script>
+        $(document).ready(function() {
+  $('#guts').lightGallery({
+    pager: true
+  });
+});
+    </script>
+</body>
